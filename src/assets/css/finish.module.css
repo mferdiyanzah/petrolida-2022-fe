@@ -1,0 +1,24 @@
+.white2 {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  background: #2c8857 !important;
+  border-radius: 5px;
+  font: 600 16px/16px "Poppins", sans-serif;
+  font-weight: bold !important;
+  color: #fff !important;
+  transition: all 0.4s ease !important;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+}
